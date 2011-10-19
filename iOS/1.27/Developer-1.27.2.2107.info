@@ -1,0 +1,13 @@
+CONF: Developer
+VERSION: 1.27.0.2107
+DATE:2011-10-13
+
+The following ad networks were tested on IOS-5 GM seed that was released Oct 4, 2011
+// AdMob
+// Flurry
+// iAd
+// InMobi
+// Greystripe
+// Millennial (without SBJSON)
+
+Visit support.burstly.com for more information.
