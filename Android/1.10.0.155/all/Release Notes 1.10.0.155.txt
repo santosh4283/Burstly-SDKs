@@ -1,0 +1,274 @@
+1.10.0.155
+
+Release Notes - Burstly Android SDK
+Supported ad networks: Admob, Greystripe, Inmobi, Millennial, Mobclix, Smaato, Jumptap, Medialets.
+
+Changes in Version 1.10.0.155
+
+Release Notes - Android SDK - Version 1.10.0
+
+Implemented Currency Management.
+
+** Bug
+    * [ASDK-317] - Application isn't responding after trying to get video with bad connection(GPRS)
+    * [ASDK-330] - Jumptap banners disappear if device lost connection
+    * [ASDK-333] - Infinite Loop in Currency Manager
+    * [ASDK-340] - HTML 5 video doesn`t work on Xoom
+    * [ASDK-383] - Handle DB Creation Failure Gracefully
+    * [ASDK-388] - Burstly Interstitial are unclikable
+    * [ASDK-402] - Ads can't be clicked using hardware keyboard
+    * [ASDK-408] - Click tracked even when you didn't see destination page
+    * [ASDK-425] - Several clicks can be tracked for burstly intertitial ad
+
+** Task
+    * [ASDK-303] - Add possibility to set refresh rate on server for Burstly ads
+    * [ASDK-416] - Update Greystripe SDK to 1.6.1
+
+Changes in Version 1.9.2.144
+
+** Task
+    * [ASDK-301] - Added support for array of pixel track urls
+
+Changes in Version 1.9.1.142
+
+** Bug
+    * [ASDK-333] - Infinite Loop in Currency Manager if servers are not available
+    * [ASDK-336] - Can not disable logs
+
+Changes in Version 1.9.0.137
+** Story
+    * [ASDK-258] - Built Support for Offer Page and Offer Wall
+    * [ASDK-260] - Implemented Currency Management API
+
+** Bug
+    * [ASDK-299] - Smmato ads are incorrectly alligned in landscape mode
+    * [ASDK-300] - App crashes if invalid JSON came
+    * [ASDK-302] - Millennial banner is displayed incorrectly on android 3.1
+    * [ASDK-314] - Precaching is not working for millennial fullscreen ads
+    * [ASDK-272] - Fixed expiration date and time problem in cookies
+
+** Features
+    * [ASDK-295] - Updated Jumptap library to version 2.1.10.2
+    * [ASDK-195] - Integrated iVdopia Andorid SDK version  1.4.7
+    * [ASDK-269] - Updated Millennial SDK to version 4.2.5
+    * [ASDK-270] - Designed and implemented support for "big banners as interstitials" usage pattern
+
+Changes in Version 1.8.0.128
+** Bug
+    * [ASDK-233] - Autorefresh is restored after restoring network connection
+    * [ASDK-263] - Android - Application crashed after getting House Interstitial
+
+** New Feature
+    * [ASDK-219] - Integrate latest Mojiva SDK
+
+** Story
+    * [ASDK-5] - Integrate medialets sdk
+    * [ASDK-197] - Global watchdog implemented to watch for
+    * [ASDK-207] - Integrate TapJoy OfferWall as an interstitial
+    * [ASDK-209] - Integration API Example
+    * [ASDK-252] - Completed Android Offer wall
+
+** Task
+    * [ASDK-188] - Update Smaato Android SDK
+    * [ASDK-247] - Greystripe Android SDK 1.6
+
+Changes in Version 1.7.3.122
+** Feature
+    ** Improvement
+    * [ASDK-279] - Increase landing page loading speed in script interstitials
+
+Changes in Version 1.7.2.121
+** Feature
+    Implemented Script interstitials.
+    Implemented close Script interstitial JavaScript method (window.ScriptActivity.closeActivity()).
+    Implemented server side Script/Image interstitial autoclose interval.
+
+Changes in Version 1.7.2.117
+** Feature
+    Implemented Burstly image interstitials.
+
+Changes in Version 1.7.1.114
+** Bug
+    Fixed background thread crash in case if response type is unexpected.
+
+Changes in Version 1.7.0.113
+** Bug
+
+    * [ASDK-93] - Android VideoPlayerActivity isn't responding after pressed back button while streaming video was loading
+    * [ASDK-122] - Sound continue playing when app in background
+    * [ASDK-212] - Skip button is very small on Nexus S
+    * [ASDK-222] - The size of direct ads is incorrect
+    * [ASDK-227] - Burstly image ads displayed incorrectly
+    * [ASDK-229] - Jumptap interstitial looks ugly and Close link doesn't work
+    * [ASDK-232] - Android - Jumptap 300x250 banner incorrectly displayed
+    * [ASDK-234] - Image ads sometimes displayed with incorrect size
+    * [ASDK-237] - Greystripe banner ad incorrectly displayed in landscape mode
+    * [ASDK-239] - There is a problem with buttons displaying if video was precached
+    * [ASDK-240] - Crash after getting video ads and then banner ads
+    * [ASDK-241] - Video ads: Incorrect video ad can be played sometimes
+    * [ASDK-243] - User can't regulate sound when video ads are playing
+
+** New Feature
+    * [ASDK-216] - Add "clickability" to video ads
+
+** Task
+    * [ASDK-2] - Add JumpTap SDK for Android
+    * [ASDK-189] - Update AdMob Android SDK
+    * [ASDK-231] - Integrate version 4.1 of the AdMob SDK
+
+
+Changes in Version 1.6.3.96
+** Bug
+    * [ASDK-215] - Rare crash in Burstly Text ad when low memory
+
+Changes in Version 1.6.2.95
+** Bug
+    * [ASDK-203] - Greystripe banner incorrectly displayed
+
+Changes in Version 1.6.1.94
+** Bug
+    * [ASDK-214] - Autorefresh stops working after Millenial failed
+
+Changes in Version 1.6.0.93
+** Bug
+    * [ASDK-64] - Download track request should be resend if there was a network or server-side error
+    * [ASDK-125] - Burstly ads incorrectly displayed after some time
+    * [ASDK-196] - Sometimes Mobclix ads incorrectly displayed
+    * [ASDK-202] - Android - empty space displayed after Millenial video
+    * [ASDK-212] - Skip button is very small on Nexus S
+
+** Improvement
+    * [ASDK-184] - Move Ad instances creation in background
+    * [ASDK-129] - Update to latest InMobi Android SDK
+    * [ASDK-180] - Define an API for 3rd party ad networks
+    * [ASDK-186] - Update to latest Millennial Media Android SDK
+
+** New Feature
+    * [ASDK-148] - Add an ad network capabilities descriptor
+
+Changes in Version 1.5.0.87
+** Bug
+    * [ASDK-121] - Skip button must be highlighted when pressed
+    * [ASDK-128] - Autorefresh stops working when ad request is failed by timeout.
+    * [ASDK-149] - Video ads fails.
+    * [ASDK-150] - 'sessionLength' parameter stops working after autorefresh switched on and then off.
+    * [ASDK-163] - Mobclix - can't close Mobclix interstitial ad
+    * [ASDK-166] - Crash when getting Google adsense
+    * [ASDK-169] - Text Burstly ad incorrectly displayed
+    * [ASDK-173] - The sessionLength parameter works even for those ads which do not have this parameter.
+    * [ASDK-175] - App sends requests for ads with sessionsLength parameter steadily without any break.
+    * [ASDK-176] - AdSense sendtrack click request NullPonterException fail
+    * [ASDK-178] - The sessionLength parameter does not work for admob video ad.
+    * [ASDK-182] - Mobclix interstitial crashed with java.lang.ArrayIndexOutOfBoundsException
+
+** Improvement
+    * [ASDK-133] - Android SDK: Integrate Mobclix SDK 2.3.0
+    * [ASDK-142] - Enhanced Exception Handing
+    * [ASDK-144] - Logging of JSON traffic
+
+** New Feature
+    * [ASDK-45] - SDK should observe network availability and react to offline mode gracefully
+
+Changes in Version 1.4.3.78
+
+** Improvement
+    * [ASDK-147] - Update to InMobi SDK 2.0
+
+Changes in Version 1.4.2.75
+
+** Bug
+    * [ASDK-58]  - Android - Can't get GS on 1.6 emulator
+    * [ASDK-100] - Android - Incorrect behaviour after pressed HOMe button during streaming video advertisement
+    * [ASDK-112] - Android - Exception in logs while getting Smaato
+    * [ASDK-113] - Could not send track request
+    * [ASDK-116] - Android - SessionLength parameter ignored
+    * [ASDK-118] - Android - GS interstitial banner incorrectly displayed in landscape mode
+    * [ASDK-151] - Millenial banner dissapears if next ad is interstitial
+    * [ASDK-152] - Burstly ads - video files of image and text burstly ads play in a different ways.
+
+** Improvement
+    * [ASDK-105] - Update to Greystripe SDK 1.5
+
+** New Feature
+    * [ASDK-115] - ASDK: Add more listener callbacks for interstitials
+    * [ASDK-67]  - Need to pass SHA1(deviceId) instead of raw DeviceId to ad server
+
+Changes in Version 1.2.1.70
+
+** Bug
+    * [ASDK-126] - Greystripe banner incorrectly displayed after mobclix
+    * [ASDK-128] - Autorefresh stops working when ad request is failed by timeout.
+    * [ASDK-130] - Admob banner dissapears if next banner failed to load
+    * [ASDK-131] - Crash when getting SMAATO ads
+
+** Improvement
+    * Changed ad processing pipeline to allow more flexible ad server optimization
+
+Changes in Version 1.2.0.62
+** Bug Fix
+    * [ASDK-59] - Application crashes just after launch on 2.3 emulator.
+    * [ASDK-63] - Test application stopped responding (autorefreshing) after Admob network failed (watchdog feature)
+    * [ASDK-66] - The ad server search algorithm should work differently
+    * [ASDK-72] - MobclixAdView Exception
+    * [ASDK-76] - Mobclix ads sometimes incorrectly displayed
+    * [ASDK-79] - Inmobi Crash
+    * [ASDK-81] - AdMob Interstitial Prefetching Crash
+    * [ASDK-90] - Skip button incorrectly displayed when playing video in landscape mode
+    * [ASDK-99] - Banners aren't clickable after returned to our test app from streaming video
+    * [ASDK-110] - Clicks for Mobclix are incorrectly tracked
+    * [ASDK-119] - All server requests are cancelled when BurstlyView is destroyed instead of just ones related to that BurstlyView
+    * [ASDK-124] - Adsense crash in logcat while getting ad with invalid parameters
+    * [ASDK-127] - Banner dissapears when Greystripe fullscren displayed after it
+
+** New Feature
+    * [ASDK-6] - Added support for AdMob interstitials
+    * [ASDK-111] - Changed the size and the location of video Skip button
+    * [ASDK-120] - Implemented Logging level control
+
+Changes in Version 1.1.0.42
+** Bug Fix
+    * [ASDK-48] - ads display small on high density devices with targetSdkVersion > 3
+    * [ASDK-51] - BurstlySDK version doesn't correspond  in logs to the actual
+    * [ASDK-53] - Android (1.6) - java.lang.NullPointerException in log file when Greystripe is loading
+    * [ASDK-55] - Crash after cleared images cache
+    * [ASDK-56] - (pre-cache) Ads incorrectly displayed in some cases
+    * [ASDK-57] - Greystripe banner incorrectly displayed sometimes
+
+** Improvement
+    * [ASDK-24] - Need to extent user agent info with screen density
+    * [ASDK-47] - SDK should point to production servers by default
+
+** New Feature
+    * [ASDK-37] - Implement ad network watchdog functionality
+    * [ASDK-38] - Implement ad pre-fetching and provide an API for this feature
+    * [ASDK-9]   - Integrate new mobclix lib
+
+
+Changes in Version 1.0.2.37
+** Bug Fix
+    * [ASDK-4]  - Android (1.6) - Nothing happened after second click on Gresystripe ad
+    * [ASDK-12] - Android - Autorefresh feature stops working if one of the networks failed with error
+    * [ASDK-13] - Android - script ad a little bit cropped on the right
+    * [ASDK-28] - Crash when app was backgrounded for a few hours, then was brought to front
+    * [ASDK-33] - Autorefresh timer keeps refreshing ads even if app is not in foreground
+    * [ASDK-34] - Android - One of the RSS banners incorrectly displayed when rss used for both publishers
+    * [ASDK-35] - Android - java.lang.RuntimeException while app going to background
+    * [ASDK-36] - Android - java.lang.NullPointerException in log file when working with Mobclix and changing network type (3g/WiFi)
+
+** New Feature
+    * [ASDK-7]   - Implement reachable Ad Server search functionality
+
+...
+
+###################
+SDK VERSIONS
+
+Mobclix 2.3
+Smaato 2.0.1
+Millennial 4.2.5
+Inmobi 2.0
+Greystripe 1.6
+Admob 20100527
+Jumptap 2.1.10.2
+Medialets 2.2.9
+iVdopia 1.4.7

@@ -1,0 +1,17 @@
+build: precaching
+version: 1.10.0.155
+jar: BurstlySDK_1.10.0.155(precaching).jar
+networks:
+	burstly
+	admob
+	jumptap
+	greystripe
+libs:
+	gson-1.7.1.jar
+	GoogleAdMobAdsSdk-4.1.0.jar
+	JTAdTag_2.1.10.2.jar
+servers:
+	req.appads.com
+	req1.appads.com
+	req2.appads.com
+	req3.appads.com

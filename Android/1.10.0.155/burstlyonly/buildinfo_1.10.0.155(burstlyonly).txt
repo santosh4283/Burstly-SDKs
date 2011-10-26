@@ -1,0 +1,12 @@
+build: burstlyonly
+version: 1.10.0.155
+jar: BurstlySDK_1.10.0.155(burstlyonly).jar
+networks:
+	burstly
+libs:
+	gson-1.7.1.jar
+servers:
+	req.appads.com
+	req1.appads.com
+	req2.appads.com
+	req3.appads.com
