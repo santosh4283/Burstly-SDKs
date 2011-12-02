@@ -1,0 +1,28 @@
+build: all
+version: 1.11.0.6962
+jar: BurstlySDK_1.11.0.6962(all).jar
+networks:
+	admob
+	burstly
+	greystripe
+	inmobi
+	ivdopia
+	jumptap
+	medialets
+	millennial
+	smaato
+libs:
+	gson-1.7.1.jar
+	GoogleAdMobAdsSdk_4.3.1.jar
+	InMobiAndroidSDK_3.0.jar
+	gssdk_1.6.1.jar
+	MMAdView_4.5.jar
+	SOMAAndroidSDK_2.0.1.jar
+	MedialetsUniversalSDK-Android_2.2.9.jar
+	JTAdTag_2.1.10.2.jar
+	iVdopia_Android_SDK_1.4.7.jar
+servers:
+	req.appads.com
+	req1.appads.com
+	req2.appads.com
+	req3.appads.com
